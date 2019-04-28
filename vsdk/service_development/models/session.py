@@ -59,6 +59,14 @@ class CallSession(models.Model):
         step.save()
         return
 
+    def record_choice(self, choice = None, element = None, description = None):
+        from . import UserDtmfInput
+        step = UserDtmfInput(session = self, element = element, choice = choice, description = description)
+        self.end = timezone.now()
+        self.save()
+        step.save()
+        return
+
     def link_to_user(self, user):
         self.user = user
         self.save()
