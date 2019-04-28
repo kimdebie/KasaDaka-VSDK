@@ -36,7 +36,8 @@ def choice_generate_context(choice_element, session):
                 'choice_options_voice_labels':choice_options_resolve_voice_labels(choice_options, language),
                     'choice_options_redirect_urls': choice_options_resolve_redirect_urls(choice_options,session),
                     'language': language,
-                    }
+                'choice_url': choice_element.get_absolute_url(session) + '/post'
+                }
     return context
 
 def choice(request, element_id, session_id):
@@ -45,5 +46,31 @@ def choice(request, element_id, session_id):
     session.record_step(choice_element)
     context = choice_generate_context(choice_element, session)
     
-    return render(request, 'choice.xml', context, content_type='text/xml')
+    return render(request, 'new_choice.xml', context, content_type='text/xml')
 
+
+def post(request, element_id, session_id):
+    """
+    Saves the chosen choice to the session
+    """
+    print ("HERE")
+    if 'redirect_url' in request.POST:
+        redirect_url = request.POST['redirect_url']
+    else: raise ValueError('Incorrect request, redirect_url not set')
+    if 'choice_id' not in request.POST:
+        raise ValueError('Incorrect request, choice ID not set')
+
+    choice_element = get_object_or_404(Choice, pk=element_id)
+    session = get_object_or_404(CallSession, pk = session_id)
+    voice_service = session.service
+    session.record_choice(choice = request.POST['choice_id'], element = choice_element, description="User choice")
+
+    print (choice_element)
+    print ("Choice %s" % request.POST['choice_id'])
+
+    # session._language = language
+    # session.save()
+
+    # session.record_step(None, "Choice selected, %s" % language.name)
+
+    return HttpResponseRedirect(redirect_url)

@@ -5,6 +5,7 @@ from django.utils.translation import ugettext
 
 from django.utils import timezone
 from . import CallSession, VoiceService
+from . import VoiceServiceElement # marios
 
 
 class UserInputCategory(models.Model):
@@ -46,6 +47,40 @@ class SpokenUserInput(models.Model):
 
     audio_file_player.allow_tags = True
     audio_file_player.short_description = _('Audio file player')
+
+class UserDtmfInput(models.Model):
+    session = models.ForeignKey(CallSession, on_delete=models.CASCADE, related_name="%(class)s_session")
+    time = models.DateTimeField(_('Time'),auto_now_add = True)
+    choice = models.CharField(_('Choice'), max_length = 100, null = True, blank = True)
+    element = models.ForeignKey(VoiceServiceElement, on_delete = models.SET_NULL, null = True)
+    description = models.CharField(_('Description'),max_length = 1000,blank = True, null = True)
+
+    class Meta:
+        verbose_name = _('User DTMF input')
+
+    def __str__(self):
+        from django.template import defaultfilters
+        date = defaultfilters.date(self.time, "SHORT_DATE_FORMAT")
+        time = defaultfilters.time(self.time, "TIME_FORMAT")
+        datetime = date + " " + time
+
+        if self.description:
+            return "%s: @ %s -> %s %s %s" % (str(self.session), str(datetime), str(self.description), str(self.choice), str(self.element))
+        else:
+            return "%s: @ %s -> %s %s" % (str(self.session), str(datetime), str(self.choice), str(self.element))
+
+    @property
+    def visited_element(self):
+        """
+        Returns the actual subclassed object that is redirected to,
+        instead of the VoiceServiceElement superclass object (which does
+        not have specific fields and methods).
+        """
+        if self._visited_element:
+            return VoiceServiceElement.objects.get_subclass(id = self._visited_element.id)
+        else: return None
+
+    
 
 
 
