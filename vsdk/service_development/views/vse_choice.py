@@ -53,7 +53,6 @@ def post(request, element_id, session_id):
     """
     Saves the chosen choice to the session
     """
-    print ("HERE")
     if 'redirect_url' in request.POST:
         redirect_url = request.POST['redirect_url']
     else: raise ValueError('Incorrect request, redirect_url not set')
@@ -65,12 +64,10 @@ def post(request, element_id, session_id):
     voice_service = session.service
     session.record_choice(choice = request.POST['choice_id'], element = choice_element, description="User choice")
 
-    print (choice_element)
-    print ("Choice %s" % request.POST['choice_id'])
-
-    # session._language = language
-    # session.save()
-
-    # session.record_step(None, "Choice selected, %s" % language.name)
+    # print (choice_element)
+    # print ("Choice %s" % request.POST['choice_id'])
+    r_url_array = redirect_url.split('/')
+    if any("message" in s for s in r_url_array):
+        print ("Need to calculate prediction")
 
     return HttpResponseRedirect(redirect_url)
