@@ -1541,6 +1541,174 @@
   }
 },
 {
+  "model": "service_development.callsession",
+  "pk": 4,
+  "fields": {
+    "start": "2019-04-25T19:17:28.012Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 5,
+  "fields": {
+    "start": "2019-04-25T19:18:54.003Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 6,
+  "fields": {
+    "start": "2019-04-25T19:35:27.518Z",
+    "end": "2019-04-26T18:24:21.358Z",
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": 3
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 7,
+  "fields": {
+    "start": "2019-04-26T18:13:02.744Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 8,
+  "fields": {
+    "start": "2019-04-26T18:15:13.572Z",
+    "end": null,
+    "user": null,
+    "caller_id": "1234",
+    "service": 2,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 9,
+  "fields": {
+    "start": "2019-04-26T18:15:22.010Z",
+    "end": null,
+    "user": null,
+    "caller_id": "admin",
+    "service": 2,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 10,
+  "fields": {
+    "start": "2019-04-26T18:15:52.767Z",
+    "end": null,
+    "user": null,
+    "caller_id": "1",
+    "service": 2,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 11,
+  "fields": {
+    "start": "2019-04-26T18:15:57.343Z",
+    "end": null,
+    "user": null,
+    "caller_id": "1",
+    "service": 2,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 12,
+  "fields": {
+    "start": "2019-04-26T18:15:59.693Z",
+    "end": null,
+    "user": null,
+    "caller_id": "1",
+    "service": 2,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 13,
+  "fields": {
+    "start": "2019-04-26T18:18:37.493Z",
+    "end": null,
+    "user": null,
+    "caller_id": "456",
+    "service": 2,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 14,
+  "fields": {
+    "start": "2019-04-26T18:18:53.137Z",
+    "end": null,
+    "user": null,
+    "caller_id": "1",
+    "service": 2,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 15,
+  "fields": {
+    "start": "2019-04-26T18:18:56.210Z",
+    "end": null,
+    "user": null,
+    "caller_id": "456",
+    "service": 2,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 16,
+  "fields": {
+    "start": "2019-04-26T18:22:37.916Z",
+    "end": "2019-04-26T18:26:53.982Z",
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": 3
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 17,
+  "fields": {
+    "start": "2019-04-27T11:19:35.404Z",
+    "end": "2019-04-28T20:23:37.819Z",
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": 2
+  }
+},
+{
   "model": "service_development.callsessionstep",
   "pk": 1,
   "fields": {
@@ -1647,6 +1815,716 @@
     "time": "2019-04-23T15:15:59.540Z",
     "session": 2,
     "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 12,
+  "fields": {
+    "time": "2019-04-25T19:47:02.094Z",
+    "session": 6,
+    "_visited_element": null,
+    "description": "Language selected, English"
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 13,
+  "fields": {
+    "time": "2019-04-25T19:48:14.129Z",
+    "session": 6,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 14,
+  "fields": {
+    "time": "2019-04-25T19:58:30.282Z",
+    "session": 6,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 15,
+  "fields": {
+    "time": "2019-04-25T19:59:10.181Z",
+    "session": 6,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 16,
+  "fields": {
+    "time": "2019-04-25T20:00:24.456Z",
+    "session": 6,
+    "_visited_element": 15,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 17,
+  "fields": {
+    "time": "2019-04-25T20:00:34.161Z",
+    "session": 6,
+    "_visited_element": 12,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 18,
+  "fields": {
+    "time": "2019-04-26T17:38:59.999Z",
+    "session": 6,
+    "_visited_element": null,
+    "description": "Language selected, English"
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 19,
+  "fields": {
+    "time": "2019-04-26T17:39:29.942Z",
+    "session": 6,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 20,
+  "fields": {
+    "time": "2019-04-26T17:56:58.861Z",
+    "session": 6,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 21,
+  "fields": {
+    "time": "2019-04-26T17:57:11.572Z",
+    "session": 6,
+    "_visited_element": 15,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 22,
+  "fields": {
+    "time": "2019-04-26T17:57:34.281Z",
+    "session": 6,
+    "_visited_element": 15,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 23,
+  "fields": {
+    "time": "2019-04-26T17:58:50.993Z",
+    "session": 6,
+    "_visited_element": 15,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 24,
+  "fields": {
+    "time": "2019-04-26T17:59:00.938Z",
+    "session": 6,
+    "_visited_element": 15,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 25,
+  "fields": {
+    "time": "2019-04-26T17:59:29.481Z",
+    "session": 6,
+    "_visited_element": 15,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 26,
+  "fields": {
+    "time": "2019-04-26T17:59:37.966Z",
+    "session": 6,
+    "_visited_element": 12,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 27,
+  "fields": {
+    "time": "2019-04-26T18:06:59.527Z",
+    "session": 6,
+    "_visited_element": 15,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 28,
+  "fields": {
+    "time": "2019-04-26T18:07:10.162Z",
+    "session": 6,
+    "_visited_element": 15,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 29,
+  "fields": {
+    "time": "2019-04-26T18:07:47.693Z",
+    "session": 6,
+    "_visited_element": 15,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 30,
+  "fields": {
+    "time": "2019-04-26T18:08:34.324Z",
+    "session": 6,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 31,
+  "fields": {
+    "time": "2019-04-26T18:08:49.343Z",
+    "session": 6,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 32,
+  "fields": {
+    "time": "2019-04-26T18:10:04.127Z",
+    "session": 6,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 33,
+  "fields": {
+    "time": "2019-04-26T18:10:20.584Z",
+    "session": 6,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 34,
+  "fields": {
+    "time": "2019-04-26T18:22:16.831Z",
+    "session": 6,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 35,
+  "fields": {
+    "time": "2019-04-26T18:23:22.564Z",
+    "session": 6,
+    "_visited_element": null,
+    "description": "Language selected, Nederlands"
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 36,
+  "fields": {
+    "time": "2019-04-26T18:24:21.374Z",
+    "session": 6,
+    "_visited_element": null,
+    "description": "Language selected, Francais"
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 37,
+  "fields": {
+    "time": "2019-04-26T18:25:12.305Z",
+    "session": 16,
+    "_visited_element": null,
+    "description": "Language selected, Francais"
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 38,
+  "fields": {
+    "time": "2019-04-26T18:26:45.573Z",
+    "session": 16,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 39,
+  "fields": {
+    "time": "2019-04-26T18:26:53.991Z",
+    "session": 16,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 40,
+  "fields": {
+    "time": "2019-04-27T11:20:59.219Z",
+    "session": 17,
+    "_visited_element": null,
+    "description": "Language selected, Nederlands"
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 41,
+  "fields": {
+    "time": "2019-04-27T11:22:15.739Z",
+    "session": 17,
+    "_visited_element": null,
+    "description": "Language selected, Nederlands"
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 42,
+  "fields": {
+    "time": "2019-04-27T11:22:33.800Z",
+    "session": 17,
+    "_visited_element": null,
+    "description": "Language selected, Nederlands"
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 43,
+  "fields": {
+    "time": "2019-04-27T11:22:35.577Z",
+    "session": 17,
+    "_visited_element": null,
+    "description": "Language selected, Nederlands"
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 44,
+  "fields": {
+    "time": "2019-04-27T11:22:36.408Z",
+    "session": 17,
+    "_visited_element": null,
+    "description": "Language selected, Nederlands"
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 45,
+  "fields": {
+    "time": "2019-04-27T11:23:31.039Z",
+    "session": 17,
+    "_visited_element": null,
+    "description": "Language selected, Nederlands"
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 46,
+  "fields": {
+    "time": "2019-04-27T11:25:39.274Z",
+    "session": 17,
+    "_visited_element": null,
+    "description": "Language selected, English"
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 47,
+  "fields": {
+    "time": "2019-04-27T11:27:04.689Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 48,
+  "fields": {
+    "time": "2019-04-27T12:04:13.335Z",
+    "session": 17,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 49,
+  "fields": {
+    "time": "2019-04-28T11:53:44.413Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 50,
+  "fields": {
+    "time": "2019-04-28T11:54:56.607Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 51,
+  "fields": {
+    "time": "2019-04-28T11:56:14.878Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 52,
+  "fields": {
+    "time": "2019-04-28T11:59:53.876Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 53,
+  "fields": {
+    "time": "2019-04-28T12:01:11.440Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 54,
+  "fields": {
+    "time": "2019-04-28T12:01:42.965Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 55,
+  "fields": {
+    "time": "2019-04-28T12:08:32.581Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 56,
+  "fields": {
+    "time": "2019-04-28T12:10:05.065Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 57,
+  "fields": {
+    "time": "2019-04-28T12:10:58.644Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 58,
+  "fields": {
+    "time": "2019-04-28T12:12:19.783Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 59,
+  "fields": {
+    "time": "2019-04-28T12:15:33.968Z",
+    "session": 17,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 60,
+  "fields": {
+    "time": "2019-04-28T12:16:13.354Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 61,
+  "fields": {
+    "time": "2019-04-28T12:16:25.421Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 62,
+  "fields": {
+    "time": "2019-04-28T12:21:50.332Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 63,
+  "fields": {
+    "time": "2019-04-28T12:54:23.361Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 64,
+  "fields": {
+    "time": "2019-04-28T12:54:53.940Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 65,
+  "fields": {
+    "time": "2019-04-28T12:55:09.408Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 66,
+  "fields": {
+    "time": "2019-04-28T12:59:26.614Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 67,
+  "fields": {
+    "time": "2019-04-28T12:59:50.712Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 68,
+  "fields": {
+    "time": "2019-04-28T13:00:35.420Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 69,
+  "fields": {
+    "time": "2019-04-28T13:01:30.551Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 70,
+  "fields": {
+    "time": "2019-04-28T13:03:39.737Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 71,
+  "fields": {
+    "time": "2019-04-28T13:03:56.756Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 72,
+  "fields": {
+    "time": "2019-04-28T18:25:49.231Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 73,
+  "fields": {
+    "time": "2019-04-28T18:26:24.818Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 74,
+  "fields": {
+    "time": "2019-04-28T18:29:40.640Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 75,
+  "fields": {
+    "time": "2019-04-28T18:29:47.658Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 76,
+  "fields": {
+    "time": "2019-04-28T18:31:13.085Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 77,
+  "fields": {
+    "time": "2019-04-28T18:32:26.719Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 78,
+  "fields": {
+    "time": "2019-04-28T18:40:30.178Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 79,
+  "fields": {
+    "time": "2019-04-28T18:49:57.327Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 80,
+  "fields": {
+    "time": "2019-04-28T20:09:13.363Z",
+    "session": 17,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 81,
+  "fields": {
+    "time": "2019-04-28T20:09:55.021Z",
+    "session": 17,
+    "_visited_element": 17,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 82,
+  "fields": {
+    "time": "2019-04-28T20:10:06.192Z",
+    "session": 17,
+    "_visited_element": 12,
     "description": null
   }
 },
@@ -1767,6 +2645,1580 @@
   "fields": {
     "final_element": false,
     "_redirect": 12
+  }
+},
+{
+  "model": "service_development.userinputcategory",
+  "pk": 2,
+  "fields": {
+    "name": "Choice",
+    "description": null,
+    "service": 2
+  }
+},
+{
+  "model": "service_development.userdtmfinput",
+  "pk": 1,
+  "fields": {
+    "session": 17,
+    "time": "2019-04-28T19:45:25.853Z",
+    "choice": "1",
+    "element": 13,
+    "description": "User choice"
+  }
+},
+{
+  "model": "service_development.userdtmfinput",
+  "pk": 2,
+  "fields": {
+    "session": 17,
+    "time": "2019-04-28T20:19:42.150Z",
+    "choice": "1",
+    "element": 13,
+    "description": "User choice"
+  }
+},
+{
+  "model": "service_development.userdtmfinput",
+  "pk": 3,
+  "fields": {
+    "session": 17,
+    "time": "2019-04-28T20:21:52.924Z",
+    "choice": "1",
+    "element": 13,
+    "description": "User choice"
+  }
+},
+{
+  "model": "service_development.userdtmfinput",
+  "pk": 4,
+  "fields": {
+    "session": 17,
+    "time": "2019-04-28T20:23:13.667Z",
+    "choice": "1",
+    "element": 13,
+    "description": "User choice"
+  }
+},
+{
+  "model": "service_development.userdtmfinput",
+  "pk": 5,
+  "fields": {
+    "session": 17,
+    "time": "2019-04-28T20:23:24.864Z",
+    "choice": "1",
+    "element": 13,
+    "description": "User choice"
+  }
+},
+{
+  "model": "service_development.userdtmfinput",
+  "pk": 6,
+  "fields": {
+    "session": 17,
+    "time": "2019-04-28T20:23:37.825Z",
+    "choice": "1",
+    "element": 13,
+    "description": "User choice"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "service_development",
+    "model": "voicelabel"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "service_development",
+    "model": "language"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "service_development",
+    "model": "voicefragment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "service_development",
+    "model": "voiceservicesubelement"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "service_development",
+    "model": "voiceserviceelement"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "service_development",
+    "model": "voiceservice"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "service_development",
+    "model": "kasadakauser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "service_development",
+    "model": "callsession"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "service_development",
+    "model": "callsessionstep"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "service_development",
+    "model": "choice"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "service_development",
+    "model": "choiceoption"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "service_development",
+    "model": "messagepresentation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "service_development",
+    "model": "userinputcategory"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "service_development",
+    "model": "spokenuserinput"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "service_development",
+    "model": "record"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 22,
+  "fields": {
+    "app_label": "service_development",
+    "model": "userdtmfinput"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0nfvenmxlzk9ij5ipunl5xxsdlre6blw",
+  "fields": {
+    "session_data": "ZmVkYmFjZmFiYTcyYTQ5NGE5M2YxNmM0Y2RmNGEyZmMxYmIwMmE1Njp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5YTMzNjFlYzIzMzk1NzI1YzJkNjQxYjY4ZDA2ZjkxYTY2Mjk1MjVmIn0=",
+    "expire_date": "2019-05-08T10:48:52.142Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2x173u80xhw6dqp0par9pphi0kb4d2hc",
+  "fields": {
+    "session_data": "ZmVkYmFjZmFiYTcyYTQ5NGE5M2YxNmM0Y2RmNGEyZmMxYmIwMmE1Njp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5YTMzNjFlYzIzMzk1NzI1YzJkNjQxYjY4ZDA2ZjkxYTY2Mjk1MjVmIn0=",
+    "expire_date": "2019-05-07T12:26:34.637Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "aoygvamn5l90t2w8iffpg3vgvemmkox6",
+  "fields": {
+    "session_data": "ZmVkYmFjZmFiYTcyYTQ5NGE5M2YxNmM0Y2RmNGEyZmMxYmIwMmE1Njp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5YTMzNjFlYzIzMzk1NzI1YzJkNjQxYjY4ZDA2ZjkxYTY2Mjk1MjVmIn0=",
+    "expire_date": "2019-05-12T19:07:33.316Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qcrgvjzzetwnbcwk6qiyevjkah2dmsje",
+  "fields": {
+    "session_data": "ZmVkYmFjZmFiYTcyYTQ5NGE5M2YxNmM0Y2RmNGEyZmMxYmIwMmE1Njp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5YTMzNjFlYzIzMzk1NzI1YzJkNjQxYjY4ZDA2ZjkxYTY2Mjk1MjVmIn0=",
+    "expire_date": "2019-05-09T19:14:53.573Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "to3x1frac9apwyoxvjpjato6shpl2994",
+  "fields": {
+    "session_data": "ZmVkYmFjZmFiYTcyYTQ5NGE5M2YxNmM0Y2RmNGEyZmMxYmIwMmE1Njp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5YTMzNjFlYzIzMzk1NzI1YzJkNjQxYjY4ZDA2ZjkxYTY2Mjk1MjVmIn0=",
+    "expire_date": "2019-05-01T09:55:14.764Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zoqca0mhvx70jvd24tt1xzomrv155k46",
+  "fields": {
+    "session_data": "ZmVkYmFjZmFiYTcyYTQ5NGE5M2YxNmM0Y2RmNGEyZmMxYmIwMmE1Njp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5YTMzNjFlYzIzMzk1NzI1YzJkNjQxYjY4ZDA2ZjkxYTY2Mjk1MjVmIn0=",
+    "expire_date": "2019-05-10T16:52:27.529Z"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add Voice Label",
+    "content_type": 1,
+    "codename": "add_voicelabel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change Voice Label",
+    "content_type": 1,
+    "codename": "change_voicelabel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete Voice Label",
+    "content_type": 1,
+    "codename": "delete_voicelabel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can add Language",
+    "content_type": 2,
+    "codename": "add_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can change Language",
+    "content_type": 2,
+    "codename": "change_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can delete Language",
+    "content_type": 2,
+    "codename": "delete_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can add Voice Fragment",
+    "content_type": 3,
+    "codename": "add_voicefragment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can change Voice Fragment",
+    "content_type": 3,
+    "codename": "change_voicefragment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can delete Voice Fragment",
+    "content_type": 3,
+    "codename": "delete_voicefragment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can add Voice Service Sub-Element",
+    "content_type": 4,
+    "codename": "add_voiceservicesubelement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can change Voice Service Sub-Element",
+    "content_type": 4,
+    "codename": "change_voiceservicesubelement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can delete Voice Service Sub-Element",
+    "content_type": 4,
+    "codename": "delete_voiceservicesubelement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add Voice Service Element",
+    "content_type": 5,
+    "codename": "add_voiceserviceelement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change Voice Service Element",
+    "content_type": 5,
+    "codename": "change_voiceserviceelement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete Voice Service Element",
+    "content_type": 5,
+    "codename": "delete_voiceserviceelement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can add Voice Service",
+    "content_type": 6,
+    "codename": "add_voiceservice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can change Voice Service",
+    "content_type": 6,
+    "codename": "change_voiceservice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can delete Voice Service",
+    "content_type": 6,
+    "codename": "delete_voiceservice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can add KasaDaka User",
+    "content_type": 7,
+    "codename": "add_kasadakauser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can change KasaDaka User",
+    "content_type": 7,
+    "codename": "change_kasadakauser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can delete KasaDaka User",
+    "content_type": 7,
+    "codename": "delete_kasadakauser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can add Call Session",
+    "content_type": 8,
+    "codename": "add_callsession"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can change Call Session",
+    "content_type": 8,
+    "codename": "change_callsession"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can delete Call Session",
+    "content_type": 8,
+    "codename": "delete_callsession"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Call Session Step",
+    "content_type": 9,
+    "codename": "add_callsessionstep"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Call Session Step",
+    "content_type": 9,
+    "codename": "change_callsessionstep"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Call Session Step",
+    "content_type": 9,
+    "codename": "delete_callsessionstep"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can add Choice Element",
+    "content_type": 10,
+    "codename": "add_choice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can change Choice Element",
+    "content_type": 10,
+    "codename": "change_choice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can delete Choice Element",
+    "content_type": 10,
+    "codename": "delete_choice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can add Voice Service",
+    "content_type": 11,
+    "codename": "add_choiceoption"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can change Voice Service",
+    "content_type": 11,
+    "codename": "change_choiceoption"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can delete Voice Service",
+    "content_type": 11,
+    "codename": "delete_choiceoption"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can add Message Presentation Element",
+    "content_type": 12,
+    "codename": "add_messagepresentation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can change Message Presentation Element",
+    "content_type": 12,
+    "codename": "change_messagepresentation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can delete Message Presentation Element",
+    "content_type": 12,
+    "codename": "delete_messagepresentation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add User Input Category",
+    "content_type": 13,
+    "codename": "add_userinputcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change User Input Category",
+    "content_type": 13,
+    "codename": "change_userinputcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete User Input Category",
+    "content_type": 13,
+    "codename": "delete_userinputcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can add Spoken User Input",
+    "content_type": 14,
+    "codename": "add_spokenuserinput"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can change Spoken User Input",
+    "content_type": 14,
+    "codename": "change_spokenuserinput"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can delete Spoken User Input",
+    "content_type": 14,
+    "codename": "delete_spokenuserinput"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can add Spoken Input Element",
+    "content_type": 15,
+    "codename": "add_record"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can change Spoken Input Element",
+    "content_type": 15,
+    "codename": "change_record"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can delete Spoken Input Element",
+    "content_type": 15,
+    "codename": "delete_record"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 16,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 16,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 16,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 17,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 17,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 17,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 18,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 18,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 18,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 19,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 19,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 19,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 20,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 20,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 20,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 21,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 21,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 21,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can add User DTMF input",
+    "content_type": 22,
+    "codename": "add_userdtmfinput"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can change User DTMF input",
+    "content_type": 22,
+    "codename": "change_userdtmfinput"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can delete User DTMF input",
+    "content_type": 22,
+    "codename": "delete_userdtmfinput"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$100000$SjtTI97m64hV$zXUC1o6tAIMply7/FSuYqBTYWKj8iyATBEkTf1bkEF8=",
+    "last_login": "2019-04-28T19:07:33.311Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "kimdebie@outlook.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-04-17T09:54:31.675Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2019-04-17T09:59:45.240Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "Voice Service: King's truth checker",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2019-04-17T10:13:53.067Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "26",
+    "object_repr": "Voice Label: Select region",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) Select region\"}}, {\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (Francais) Select region\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2019-04-17T10:26:02.643Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Voice Service: MeteoPaysan",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2019-04-17T10:26:18.402Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "Voice Service: King's truth checker",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2019-04-23T14:09:43.623Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "27",
+    "object_repr": "Voice Label: millet",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) millet\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2019-04-23T14:10:19.391Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "27",
+    "object_repr": "Voice Label: millet",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2019-04-23T14:10:40.614Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "28",
+    "object_repr": "Voice Label: corn",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) corn\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2019-04-23T14:10:57.800Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "29",
+    "object_repr": "Voice Label: rice",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) rice\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2019-04-23T14:12:18.044Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "30",
+    "object_repr": "Voice Label: Choose crop - Sikasso",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) Choose crop - Sikasso\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2019-04-23T14:12:56.151Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "31",
+    "object_repr": "Voice Label: Choose cercle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) Choose cercle\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2019-04-23T14:13:15.900Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "32",
+    "object_repr": "Voice Label: Choose language",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) Choose language\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2019-04-23T14:15:16.411Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Choose crop - Sikasso",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Service\", \"object\": \"(Choose crop - Sikasso): Millet\"}}, {\"added\": {\"name\": \"Voice Service\", \"object\": \"(Choose crop - Sikasso): Rice\"}}, {\"added\": {\"name\": \"Voice Service\", \"object\": \"(Choose crop - Sikasso): Corn\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2019-04-23T14:16:16.922Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Voice Service: MeteoPaysan",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"supported_languages\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2019-04-23T14:17:09.168Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Choose crop - Sikasso",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"Voice Service\", \"object\": \"(Choose crop - Sikasso): Millet\", \"fields\": [\"_redirect\"]}}, {\"changed\": {\"name\": \"Voice Service\", \"object\": \"(Choose crop - Sikasso): Rice\", \"fields\": [\"_redirect\"]}}, {\"changed\": {\"name\": \"Voice Service\", \"object\": \"(Choose crop - Sikasso): Corn\", \"fields\": [\"_redirect\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2019-04-23T14:18:14.388Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "33",
+    "object_repr": "Voice Label: Thank you",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) Thank you\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2019-04-23T14:19:26.680Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "12",
+    "object_repr": "Message: Thank you",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2019-04-23T14:19:47.569Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Choose crop - Sikasso",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"Voice Service\", \"object\": \"(Choose crop - Sikasso): Millet\", \"fields\": [\"_redirect\"]}}, {\"changed\": {\"name\": \"Voice Service\", \"object\": \"(Choose crop - Sikasso): Rice\", \"fields\": [\"_redirect\"]}}, {\"changed\": {\"name\": \"Voice Service\", \"object\": \"(Choose crop - Sikasso): Corn\", \"fields\": [\"_redirect\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2019-04-23T14:21:33.111Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Choose cercle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Service\", \"object\": \"(Choose cercle): Sikasso\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2019-04-23T14:21:59.141Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "34",
+    "object_repr": "Voice Label: Selected - Sikasso",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) Selected - Sikasso\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2019-04-23T14:22:26.857Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Choose cercle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"Voice Service\", \"object\": \"(Choose cercle): Sikasso\", \"fields\": [\"voice_label\", \"_redirect\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2019-04-23T14:25:53.285Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Voice Service: MeteoPaysan",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"_start_element\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2019-04-23T14:45:18.970Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "35",
+    "object_repr": "Voice Label: Sikasso",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) Sikasso\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2019-04-23T14:45:52.103Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "Choose cercle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"Voice Service\", \"object\": \"(Choose cercle): Sikasso\", \"fields\": [\"voice_label\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2019-04-23T14:47:58.038Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "34",
+    "object_repr": "Voice Label: Selected - Sikasso",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) Selected - Sikasso\", \"fields\": [\"audio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2019-04-23T14:48:39.785Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Choose crop - Sikasso",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"voice_label\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2019-04-23T14:50:28.506Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "27",
+    "object_repr": "Voice Label: millet",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) millet\", \"fields\": [\"audio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2019-04-23T14:50:40.192Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "28",
+    "object_repr": "Voice Label: corn",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) corn\", \"fields\": [\"audio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2019-04-23T14:50:49.203Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "28",
+    "object_repr": "Voice Label: corn",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2019-04-23T14:50:58.874Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "29",
+    "object_repr": "Voice Label: rice",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) rice\", \"fields\": [\"audio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2019-04-23T14:53:17.031Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "36",
+    "object_repr": "Voice Label: Corn prediction",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) Corn prediction\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2019-04-23T14:53:56.075Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "15",
+    "object_repr": "Message: Corn prediction",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2019-04-23T14:54:16.292Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "37",
+    "object_repr": "Voice Label: Millet prediction",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) Millet prediction\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2019-04-23T14:54:30.885Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "38",
+    "object_repr": "Voice Label: Rice prediction",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) Rice prediction\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2019-04-23T14:55:20.600Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "16",
+    "object_repr": "Message: Rice prediction",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2019-04-23T14:55:39.614Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "17",
+    "object_repr": "Message: Millet prediction",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2019-04-23T14:56:08.269Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "Choose crop - Sikasso",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"Voice Service\", \"object\": \"(Choose crop - Sikasso): Millet\", \"fields\": [\"_redirect\"]}}, {\"changed\": {\"name\": \"Voice Service\", \"object\": \"(Choose crop - Sikasso): Rice\", \"fields\": [\"_redirect\"]}}, {\"changed\": {\"name\": \"Voice Service\", \"object\": \"(Choose crop - Sikasso): Corn\", \"fields\": [\"_redirect\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2019-04-23T15:01:37.245Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Voice Service: MeteoPaysan",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"registration\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2019-04-23T15:09:38.405Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "35",
+    "object_repr": "Voice Label: Sikasso",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (Francais) Sikasso\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2019-04-23T15:10:29.367Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Voice Service: MeteoPaysan",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"supported_languages\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2019-04-23T15:15:38.385Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "31",
+    "object_repr": "Voice Label: Choose cercle",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (Francais) Choose cercle\"}}, {\"changed\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) Choose cercle\", \"fields\": [\"audio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2019-04-23T15:19:05.144Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "27",
+    "object_repr": "Voice Label: millet",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (Francais) millet\"}}, {\"changed\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (English) millet\", \"fields\": [\"audio\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2019-04-23T15:19:42.376Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "28",
+    "object_repr": "Voice Label: corn",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (Francais) corn\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2019-04-23T15:19:58.980Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "29",
+    "object_repr": "Voice Label: rice",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (Francais) rice\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2019-04-23T15:21:36.095Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "33",
+    "object_repr": "Voice Label: Thank you",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (Francais) Thank you\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2019-04-23T15:23:19.090Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "34",
+    "object_repr": "Voice Label: Selected - Sikasso",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (Francais) Selected - Sikasso\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2019-04-23T15:26:29.149Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "36",
+    "object_repr": "Voice Label: Corn prediction",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (Francais) Corn prediction\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2019-04-23T15:28:05.438Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "37",
+    "object_repr": "Voice Label: Millet prediction",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (Francais) Millet prediction\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2019-04-23T15:30:02.177Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "38",
+    "object_repr": "Voice Label: Rice prediction",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"Voice Fragment\", \"object\": \"Voice Fragment: (Francais) Rice prediction\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2019-04-26T16:53:34.781Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "\"Crop\" (\"MeteoPaysan\")",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2019-04-26T16:56:11.953Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "\"Crop\" (\"MeteoPaysan\")",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2019-04-28T19:07:53.164Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "\"Choice\" (\"MeteoPaysan\")",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
   }
 }
 ]
