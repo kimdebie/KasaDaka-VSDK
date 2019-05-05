@@ -47,7 +47,7 @@ def choice(request, element_id, session_id):
     context = choice_generate_context(choice_element, session)
     
     print(context)
-    
+
     return render(request, 'new_choice.xml', context, content_type='text/xml')
     # return render(request, 'choice.xml', context, content_type='text/xml')
 
@@ -56,6 +56,8 @@ def post(request, element_id, session_id):
     """
     Saves the chosen choice to the session
     """
+    print ("HELLOOOOO")
+    
     if 'redirect_url' in request.POST:
         redirect_url = request.POST['redirect_url']
     else: raise ValueError('Incorrect request, redirect_url not set')
