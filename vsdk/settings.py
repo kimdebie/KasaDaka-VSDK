@@ -140,7 +140,7 @@ STATICFILES_DIRS = (
 )
 
 MEDIA_ROOT = os.path.join(SITE_ROOT, 'uploads')
-MEDIA_URL = '/uploads/'
+MEDIA_URL = '/uploads/converted'
 
 
 # Update database configuration with $DATABASE_URL.ALLOWED_HOSTSimport
