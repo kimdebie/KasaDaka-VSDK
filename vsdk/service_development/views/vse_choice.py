@@ -46,7 +46,8 @@ def choice(request, element_id, session_id):
     session.record_step(choice_element)
     context = choice_generate_context(choice_element, session)
     
-    return render(request, 'new_choice.xml', context, content_type='text/xml')
+    # return render(request, 'new_choice.xml', context, content_type='text/xml')
+    return render(request, 'choice.xml', context, content_type='text/xml')
 
 
 def post(request, element_id, session_id):
@@ -66,8 +67,8 @@ def post(request, element_id, session_id):
 
     # print (choice_element)
     # print ("Choice %s" % request.POST['choice_id'])
-    r_url_array = redirect_url.split('/')
-    if any("message" in s for s in r_url_array):
-        print ("Need to calculate prediction")
+    # r_url_array = redirect_url.split('/')
+    # if any("message" in s for s in r_url_array):
+    #     print ("Need to calculate prediction")
 
     return HttpResponseRedirect(redirect_url)
