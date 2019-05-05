@@ -46,6 +46,8 @@ def choice(request, element_id, session_id):
     session.record_step(choice_element)
     context = choice_generate_context(choice_element, session)
     
+    print(context)
+    
     return render(request, 'new_choice.xml', context, content_type='text/xml')
     # return render(request, 'choice.xml', context, content_type='text/xml')
 
