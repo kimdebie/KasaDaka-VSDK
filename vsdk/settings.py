@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_cron'
 ]
 
 
@@ -63,6 +64,11 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+]
+
+CRON_CLASSES = [
+    'weather.month_cron_job',
+    'weather.weekly_cron_job'
 ]
 
 ROOT_URLCONF = 'vsdk.urls'
@@ -140,7 +146,7 @@ STATICFILES_DIRS = (
 )
 
 MEDIA_ROOT = os.path.join(SITE_ROOT, 'uploads')
-MEDIA_URL = '/uploads/' # converted
+MEDIA_URL = '/uploads/converted/'
 
 
 # Update database configuration with $DATABASE_URL.ALLOWED_HOSTSimport
