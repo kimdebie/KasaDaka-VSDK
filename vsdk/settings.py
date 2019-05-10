@@ -33,7 +33,7 @@ SECRET_KEY = 'tk2(l(00&kfe7j97j$dvgz&b6r!kk_zbse1(9w*eoc$bcwu773'
 ########
 # DEBUG = True
 
-DEBUG = False
+DEBUG = True
 
 
 ALLOWED_HOSTS = ['*']
@@ -140,7 +140,7 @@ STATICFILES_DIRS = (
 )
 
 MEDIA_ROOT = os.path.join(SITE_ROOT, 'uploads')
-MEDIA_URL = '/uploads/converted'
+MEDIA_URL = '/uploads/' # converted
 
 
 # Update database configuration with $DATABASE_URL.ALLOWED_HOSTSimport
