@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_cron'
+    'django_crontab'
 ]
 
 
@@ -66,10 +66,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CRON_CLASSES = [
-    'weather.month_cron_job',
-    'weather.weekly_cron_job'
-]
 
 ROOT_URLCONF = 'vsdk.urls'
 
@@ -244,3 +240,71 @@ LOGGING = {
         },
     }
 }
+
+
+### METEO PAYSAN ###
+# Weatherbit.io
+API = 'http://api.weatherbit.io/v2.0/forecast/daily?&city_id='    
+API_KEY = "&key=57bca00927914f9f95a78579d637133e"
+
+
+CERCLES = {
+            "cercles":	[
+                            {
+                                "name": "Yorosso",
+                                "id": 2448442
+                            },
+                            {
+                                "name": "Bougouni",
+                                "id": 2459775
+                            },
+                            {
+                                "name": "Kadiolo",
+                                "id": 2455974
+                            },
+                            {
+                                "name": "Kolondieba",
+                                "id": 2454934
+                            },
+                            {
+                                "name": "Koutiala",
+                                "id": 2454268
+                            },
+                            {
+                                "name": "Sikasso",
+                                "id": 2451185
+                            },
+                            {
+                                "name": "Yanfolila",
+                                "id": 2448518
+                            }
+                        ]
+        }
+
+
+WEATHER_API_KEEP = [
+    'precip',
+    'pres',
+    'wind_cdir_full',
+    'wind_gust_spd',
+    'wind_spd',
+    'dewpt',
+    'snow',
+    'snow_depth',
+    'rh',
+    'clouds',
+    'clouds_hi',
+    'clouds_low',
+    'clouds_mid',
+    'temp',
+    'max_temp',
+    'min_temp',
+    'valid_date',
+    'weather'
+]
+
+
+CRONJOBS = [   
+    ('*/1 * * * *', 'vsdk.service_development.meteopaysan.weather-cron.ProcessWeatherData'),
+    ('*/2 * * * *', 'vsdk.service_development.meteopaysan.weather-cron-cleanup.CleanupWeatherData')
+]
