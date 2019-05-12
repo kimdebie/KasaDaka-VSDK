@@ -31,7 +31,7 @@ def ProcessWeatherData():
                         model.description = items[item]['description']
                     else:
                         setattr(model, item, items[item])
-            model.cercle = cercle['name']
+            model.cercle = cercle['name'].lower()
             
             # Process the object
             # Update its values if it exists or add a new one
