@@ -304,7 +304,14 @@ WEATHER_API_KEEP = [
 ]
 
 
+#0 0 * * 1
+#At 00:00 on Monday (every week)
+#2019-05-20 00:00:00
+#2019-05-27 00:00:00
+#2019-06-03 00:00:00
+#2019-06-10 00:00:00
+#2019-06-17 00:00:00
 CRONJOBS = [   
-    ('*/1 * * * *', 'vsdk.service_development.meteopaysan.weather-cron.ProcessWeatherData'),
-    ('*/2 * * * *', 'vsdk.service_development.meteopaysan.weather-cron-cleanup.CleanupWeatherData')
+    ('*/1 * * * *', 'vsdk.service_development.meteopaysan.weather_cron.ProcessWeatherData'),
+    ('*/2 * * * *', 'vsdk.service_development.meteopaysan.weather_cron_cleanup.CleanupWeatherData')
 ]
