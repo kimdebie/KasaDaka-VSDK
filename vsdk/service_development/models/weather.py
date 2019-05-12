@@ -1,7 +1,23 @@
 from django.db import models
 
 class Weather(models.Model):
-    temperature = models.FloatField()   
-    rainfall = models.IntegerField()    # % Chance
-    clouds = models.IntegerField()      # % Coverage
-    wind = models.FloatField()
+    cercle = models.CharField()
+    valid_date = models.DateField()
+    clouds = models.FloatField()
+    clouds_hi = models.FloatField()
+    clouds_mid = models.FloatField()
+    clouds_low = models.FloatField()
+    code = models.IntegerField()
+    description = models.CharField()
+    dewpt = models.FloatField()
+    min_temp = models.FloatField()   
+    max_temp = models.FloatField()
+    temp = models.FloatField()
+    preci = models.FloatField()
+    pres = models.FloatField()
+    rh = models.FloatField()
+    snow = models.FloatField()
+    snow_depth = models.FloatField()
+    wind_cdir_full = models.CharField()
+    wind_gust_spd = models.FloatField()
+    wind_spd = models.FloatField()

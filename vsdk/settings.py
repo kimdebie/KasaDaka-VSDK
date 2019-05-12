@@ -49,8 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'django_cron'
+    'django.contrib.staticfiles'
 ]
 
 
@@ -66,10 +65,6 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CRON_CLASSES = [
-    'weather.month_cron_job',
-    'weather.weekly_cron_job'
-]
 
 ROOT_URLCONF = 'vsdk.urls'
 
