@@ -1059,5 +1059,41 @@
     "final_element": false,
     "_redirect": 6
   }
+},
+{
+  "model": "service_development.crop",
+  "pk": 1,
+  "fields": {
+    "name": "rice",
+    "min_temp": "16",
+    "max_temp": "27",
+    "snow": "0",
+    "snow_depth": "0",
+    "rh": "0"
+  }
+},
+{
+  "model": "service_development.crop",
+  "pk": 2,
+  "fields": {
+    "name": "millet",
+    "min_temp": "14",
+    "snow": "0",
+    "snow_depth": "0"
+  }
+},
+{
+  "model": "service_development.crop",
+  "pk": 3,
+  "fields": {
+    "name": "corn",
+    "clouds_hi": "30",
+    "clouds_low": "10",
+    "description": "Few Clouds",
+    "min_temp": "15",
+    "snow": "0",
+    "snow_depth": "0",
+    "rh": "0"
+  }
 }
 ]
