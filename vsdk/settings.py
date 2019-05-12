@@ -304,6 +304,7 @@ WEATHER_API_KEEP = [
 ]
 
 
+#https://crontab.guru/
 #0 0 * * 1
 #At 00:00 on Monday (every week)
 #2019-05-20 00:00:00
