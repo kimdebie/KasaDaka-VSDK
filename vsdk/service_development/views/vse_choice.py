@@ -36,8 +36,17 @@ def choice_generate_context(choice_element, session):
                 'choice_options_voice_labels':choice_options_resolve_voice_labels(choice_options, language),
                     'choice_options_redirect_urls': choice_options_resolve_redirect_urls(choice_options,session),
                     'language': language,
-                'choice_url': choice_element.get_absolute_url(session) + '/post'
+                'choice_url': choice_element.get_absolute_url(session) + '/post',
+
                 }
+    import json
+    from django.core import serializers
+    for item in choice_options:
+        for field in item._meta.get_fields():
+            print (field.name)
+    
+
+    print (choice_options[0].name)
     return context
 
 def choice(request, element_id, session_id):
@@ -70,10 +79,10 @@ def post(request, element_id, session_id):
     # r_url_array = redirect_url.split('/')
     # if any("message" in s for s in r_url_array):
     #     print ("Need to calculate prediction")
+    print (request.POST['description'])
+    
     if choice_element.id == 8:
-        print("Choose crop choice")
         from django.utils import timezone
         choices_list = UserDtmfInput.objects.filter(session_id = session_id, time__gte = timezone.now())
-        print (choices_list)
 
     return HttpResponseRedirect(redirect_url)

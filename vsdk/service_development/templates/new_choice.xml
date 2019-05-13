@@ -28,13 +28,26 @@
     {% for option_redirect in choice_options_redirect_urls %}
         {% if forloop.counter == 1 %}
         <if cond="choice == '{{ forloop.counter }}'">
-	    {% comment %} TODO hoe doe je een url opzoeken als je nog niet weet welke class object je naar refereert? {% endcomment %}
-        <assign name="redirect_url" expr="'{{ option_redirect }}'"/>
-        <assign name="choice_id" expr="'{{ forloop.counter }}'"/>
+        {% comment %} TODO hoe doe je een url opzoeken als je nog niet weet welke class object je naar refereert? {% endcomment %}
+          <assign name="redirect_url" expr="'{{ option_redirect }}'"/>
+          <assign name="choice_id" expr="'{{ forloop.counter }}'"/>
+        {% else %}        
+        <elseif cond="choice == '{{ forloop.counter }}'" />
+          <assign name="redirect_url" expr="'{{ option_redirect }}'"/>
+          <assign name="choice_id" expr="'{{ forloop.counter }}'"/>
+        {% endif %}
+    {% endfor %}
+
+    <else/>
+    </if>
+
+    {% for option in choice_options %}
+      {% if forloop.counter == 1 %}
+        <if cond="choice == '{{ forloop.counter }}'">
+        <assign name="description" expr="'{{ option.name }}'"/>
         {% else %}
         <elseif cond="choice == '{{ forloop.counter }}'" />
-        <assign name="redirect_url" expr="'{{ option_redirect }}'"/>
-        <assign name="choice_id" expr="'{{ forloop.counter }}'"/>
+        <assign name="description" expr="'{{ option.name }}'"/>
         {% endif %}
     {% endfor %}
 
@@ -48,7 +61,7 @@
 
 <form id="submit_form">
     <block>
-    <submit next="{{ choice_url }}" method="post" namelist="choice_id redirect_url"/>
+    <submit next="{{ choice_url }}" method="post" namelist="choice_id redirect_url description"/>
     </block>
 </form>
 {% endblock %}
