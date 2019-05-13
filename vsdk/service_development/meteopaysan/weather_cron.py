@@ -1,4 +1,6 @@
+from vsdk.service_development.models.weather import Cercle
 from vsdk.service_development.models.weather import Weather
+
 from django.conf import settings
 
 import json
@@ -14,14 +16,14 @@ def GetWeatherData(cercle):
 
 
 def ProcessWeatherData():
-    data = settings.CERCLES
+    cercles = Weather.objects.all()
     metrics = settings.WEATHER_API_KEEP
 
     # For each cercle get the data 
     # Keep only the fields that we are interested in 
     # and build the model
-    for cercle in data['cercles']:
-        weather_data = GetWeatherData(str(cercle['id']))
+    for cercle in cercles:
+        weather_data = GetWeatherData(cercle.weather_api_id)
         for items in weather_data['data']:
             model = Weather()
             for item in items:
@@ -31,7 +33,7 @@ def ProcessWeatherData():
                         model.description = items[item]['description']
                     else:
                         setattr(model, item, items[item])
-            model.cercle = cercle['name'].lower()
+            model.cercle = cercle.name
             
             # Process the object
             # Update its values if it exists or add a new one

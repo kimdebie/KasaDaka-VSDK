@@ -9,6 +9,7 @@ from .models import *
 
 # Custom models
 from .models.weather import Weather
+from .models.cercle import Cercle
 
 def format_validation_result(obj):
         """
@@ -191,6 +192,7 @@ class SpokenUserInputAdmin(admin.ModelAdmin):
 # Custom models
 admin.site.register(Weather)
 admin.site.register(Crop)
+admin.site.register(Cercle)
 
 admin.site.register(VoiceService, VoiceServiceAdmin)
 admin.site.register(MessagePresentation, MessagePresentationAdmin)
