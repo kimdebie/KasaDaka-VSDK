@@ -70,5 +70,10 @@ def post(request, element_id, session_id):
     # r_url_array = redirect_url.split('/')
     # if any("message" in s for s in r_url_array):
     #     print ("Need to calculate prediction")
+    if choice_element.id == 8:
+        print("Choose crop choice")
+        from django.utils import timezone
+        choices_list = UserDtmfInput.objects.filter(session_id = session_id, time__gte = timezone.now())
+        print (choices_list)
 
     return HttpResponseRedirect(redirect_url)
