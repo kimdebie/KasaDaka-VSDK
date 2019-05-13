@@ -25,3 +25,4 @@ class Crop(models.Model):
         self.name = self.name.lower()
         return super(Crop, self).save(*args, **kwargs)
 
+        

@@ -7,6 +7,10 @@ from django.utils.safestring import mark_safe
 from vsdk import settings
 from .models import *
 
+# Custom models
+from .models.weather import Weather
+from .models.cercle import Cercle
+
 def format_validation_result(obj):
         """
         Creates a HTML list from all errors found in validation
@@ -185,6 +189,10 @@ class SpokenUserInputAdmin(admin.ModelAdmin):
 
 
 # Register your models here.
+# Custom models
+admin.site.register(Weather)
+admin.site.register(Crop)
+admin.site.register(Cercle)
 
 admin.site.register(VoiceService, VoiceServiceAdmin)
 admin.site.register(MessagePresentation, MessagePresentationAdmin)
@@ -196,4 +204,3 @@ admin.site.register(VoiceLabel, VoiceLabelAdmin)
 admin.site.register(SpokenUserInput, SpokenUserInputAdmin)
 admin.site.register(UserInputCategory)
 admin.site.register(Record)
-admin.site.register(Crop)

@@ -2753,5 +2753,97 @@
     "element": 13,
     "description": "User choice"
   }
+},
+{
+  "model": "service_development.cercle",
+  "pk": 1,
+  "fields": {
+    "name": "yorosso",
+    "weather_api_id": 2448442
+  }
+},
+{
+  "model": "service_development.cercle",
+  "pk": 2,
+  "fields": {
+    "name": "bougouni",
+    "weather_api_id": 2459775
+  }
+},
+{
+  "model": "service_development.cercle",
+  "pk": 3,
+  "fields": {
+    "name": "kadiolo",
+    "weather_api_id": 2455974
+  }
+},
+{
+  "model": "service_development.cercle",
+  "pk": 4,
+  "fields": {
+    "name": "kolondieba",
+    "weather_api_id": 2454934
+  }
+},
+{
+  "model": "service_development.cercle",
+  "pk": 5,
+  "fields": {
+    "name": "koutiala",
+    "weather_api_id": 2454268
+  }
+},
+{
+  "model": "service_development.cercle",
+  "pk": 6,
+  "fields": {
+    "name": "sikasso",
+    "weather_api_id": 2451185
+  }
+},
+{
+  "model": "service_development.cercle",
+  "pk": 7,
+  "fields": {
+    "name": "yanfolila",
+    "weather_api_id": 2448518
+  }
+},
+{
+  "model": "service_development.crop",
+  "pk": 1,
+  "fields": {
+    "name": "rice",
+    "min_temp": "16",
+    "max_temp": "27",
+    "snow": "0",
+    "snow_depth": "0",
+    "rh": "0"
+  }
+},
+{
+  "model": "service_development.crop",
+  "pk": 2,
+  "fields": {
+    "name": "millet",
+    "min_temp": "14",
+    "snow": "0",
+    "snow_depth": "0"
+  }
+},
+{
+  "model": "service_development.crop",
+  "pk": 3,
+  "fields": {
+    "name": "corn",
+    "clouds_hi": "30",
+    "clouds_low": "10",
+    "description": "Few Clouds",
+    "min_temp": "15",
+    "snow": "0",
+    "snow_depth": "0",
+    "rh": "0"
+  }
 }
 ]
