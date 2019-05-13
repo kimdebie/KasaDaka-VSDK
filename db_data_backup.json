@@ -1701,7 +1701,7 @@
   "pk": 17,
   "fields": {
     "start": "2019-04-27T11:19:35.404Z",
-    "end": "2019-04-28T20:23:37.819Z",
+    "end": "2019-05-13T14:19:58.673Z",
     "user": null,
     "caller_id": null,
     "service": 2,
@@ -1713,7 +1713,7 @@
   "pk": 18,
   "fields": {
     "start": "2019-05-01T11:06:53.418Z",
-    "end": "2019-05-01T11:11:21.728Z",
+    "end": "2019-05-13T14:37:56.863Z",
     "user": null,
     "caller_id": null,
     "service": 2,
@@ -2561,6 +2561,476 @@
   }
 },
 {
+  "model": "service_development.callsessionstep",
+  "pk": 85,
+  "fields": {
+    "time": "2019-05-13T13:35:39.965Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 86,
+  "fields": {
+    "time": "2019-05-13T13:42:28.178Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 87,
+  "fields": {
+    "time": "2019-05-13T13:43:49.898Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 88,
+  "fields": {
+    "time": "2019-05-13T13:44:46.250Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 89,
+  "fields": {
+    "time": "2019-05-13T13:44:58.403Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 90,
+  "fields": {
+    "time": "2019-05-13T13:46:36.385Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 91,
+  "fields": {
+    "time": "2019-05-13T13:47:14.999Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 92,
+  "fields": {
+    "time": "2019-05-13T13:48:04.705Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 93,
+  "fields": {
+    "time": "2019-05-13T13:49:20.869Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 94,
+  "fields": {
+    "time": "2019-05-13T13:51:16.612Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 95,
+  "fields": {
+    "time": "2019-05-13T13:53:01.147Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 96,
+  "fields": {
+    "time": "2019-05-13T13:54:01.517Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 97,
+  "fields": {
+    "time": "2019-05-13T13:54:34.528Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 98,
+  "fields": {
+    "time": "2019-05-13T13:56:42.006Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 99,
+  "fields": {
+    "time": "2019-05-13T13:57:03.688Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 100,
+  "fields": {
+    "time": "2019-05-13T13:58:42.463Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 101,
+  "fields": {
+    "time": "2019-05-13T13:58:59.224Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 102,
+  "fields": {
+    "time": "2019-05-13T13:59:13.505Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 103,
+  "fields": {
+    "time": "2019-05-13T14:00:28.628Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 104,
+  "fields": {
+    "time": "2019-05-13T14:01:05.621Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 105,
+  "fields": {
+    "time": "2019-05-13T14:01:24.526Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 106,
+  "fields": {
+    "time": "2019-05-13T14:01:38.464Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 107,
+  "fields": {
+    "time": "2019-05-13T14:02:30.144Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 108,
+  "fields": {
+    "time": "2019-05-13T14:02:41.809Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 109,
+  "fields": {
+    "time": "2019-05-13T14:03:04.932Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 110,
+  "fields": {
+    "time": "2019-05-13T14:03:26.151Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 111,
+  "fields": {
+    "time": "2019-05-13T14:06:02.506Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 112,
+  "fields": {
+    "time": "2019-05-13T14:06:19.694Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 113,
+  "fields": {
+    "time": "2019-05-13T14:09:53.344Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 114,
+  "fields": {
+    "time": "2019-05-13T14:11:13.506Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 115,
+  "fields": {
+    "time": "2019-05-13T14:11:25.380Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 116,
+  "fields": {
+    "time": "2019-05-13T14:12:22.571Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 117,
+  "fields": {
+    "time": "2019-05-13T14:14:11.988Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 118,
+  "fields": {
+    "time": "2019-05-13T14:15:07.104Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 119,
+  "fields": {
+    "time": "2019-05-13T14:15:36.166Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 120,
+  "fields": {
+    "time": "2019-05-13T14:16:00.156Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 121,
+  "fields": {
+    "time": "2019-05-13T14:17:17.746Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 122,
+  "fields": {
+    "time": "2019-05-13T14:18:36.707Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 123,
+  "fields": {
+    "time": "2019-05-13T14:24:21.882Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 124,
+  "fields": {
+    "time": "2019-05-13T14:27:06.338Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 125,
+  "fields": {
+    "time": "2019-05-13T14:27:56.510Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 126,
+  "fields": {
+    "time": "2019-05-13T14:28:36.330Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 127,
+  "fields": {
+    "time": "2019-05-13T14:30:52.808Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 128,
+  "fields": {
+    "time": "2019-05-13T14:32:32.494Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 129,
+  "fields": {
+    "time": "2019-05-13T14:33:50.789Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 130,
+  "fields": {
+    "time": "2019-05-13T14:34:05.762Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 131,
+  "fields": {
+    "time": "2019-05-13T14:37:56.870Z",
+    "session": 18,
+    "_visited_element": 8,
+    "description": null
+  }
+},
+{
   "model": "service_development.choice",
   "pk": 2,
   "fields": {}
@@ -2755,95 +3225,135 @@
   }
 },
 {
-  "model": "service_development.cercle",
-  "pk": 1,
+  "model": "service_development.userdtmfinput",
+  "pk": 7,
   "fields": {
-    "name": "yorosso",
-    "weather_api_id": 2448442
+    "session": 17,
+    "time": "2019-05-13T14:19:58.682Z",
+    "choice": "2",
+    "element": 8,
+    "description": "User choice"
+  }
+},
+{
+  "model": "service_development.crop",
+  "pk": "corn",
+  "fields": {
+    "clouds": null,
+    "clouds_hi": 30.0,
+    "clouds_mid": null,
+    "clouds_low": 10.0,
+    "code": null,
+    "description": "Few Clouds",
+    "dewpt": null,
+    "min_temp": 15.0,
+    "max_temp": null,
+    "temp": null,
+    "precip": null,
+    "pres": null,
+    "rh": 0.0,
+    "snow": 0.0,
+    "snow_depth": 0.0,
+    "wind_cdir_full": null,
+    "wind_gust_spd": null,
+    "wind_spd": null
+  }
+},
+{
+  "model": "service_development.crop",
+  "pk": "millet",
+  "fields": {
+    "clouds": null,
+    "clouds_hi": null,
+    "clouds_mid": null,
+    "clouds_low": null,
+    "code": null,
+    "description": null,
+    "dewpt": null,
+    "min_temp": 14.0,
+    "max_temp": null,
+    "temp": null,
+    "precip": null,
+    "pres": null,
+    "rh": null,
+    "snow": 0.0,
+    "snow_depth": 0.0,
+    "wind_cdir_full": null,
+    "wind_gust_spd": null,
+    "wind_spd": null
+  }
+},
+{
+  "model": "service_development.crop",
+  "pk": "rice",
+  "fields": {
+    "clouds": null,
+    "clouds_hi": null,
+    "clouds_mid": null,
+    "clouds_low": null,
+    "code": null,
+    "description": null,
+    "dewpt": null,
+    "min_temp": 16.0,
+    "max_temp": 27.0,
+    "temp": null,
+    "precip": null,
+    "pres": null,
+    "rh": 0.0,
+    "snow": 0.0,
+    "snow_depth": 0.0,
+    "wind_cdir_full": null,
+    "wind_gust_spd": null,
+    "wind_spd": null
   }
 },
 {
   "model": "service_development.cercle",
-  "pk": 2,
+  "pk": "bougouni",
   "fields": {
-    "name": "bougouni",
     "weather_api_id": 2459775
   }
 },
 {
   "model": "service_development.cercle",
-  "pk": 3,
+  "pk": "kadiolo",
   "fields": {
-    "name": "kadiolo",
     "weather_api_id": 2455974
   }
 },
 {
   "model": "service_development.cercle",
-  "pk": 4,
+  "pk": "kolondieba",
   "fields": {
-    "name": "kolondieba",
     "weather_api_id": 2454934
   }
 },
 {
   "model": "service_development.cercle",
-  "pk": 5,
+  "pk": "koutiala",
   "fields": {
-    "name": "koutiala",
     "weather_api_id": 2454268
   }
 },
 {
   "model": "service_development.cercle",
-  "pk": 6,
+  "pk": "sikasso",
   "fields": {
-    "name": "sikasso",
     "weather_api_id": 2451185
   }
 },
 {
   "model": "service_development.cercle",
-  "pk": 7,
+  "pk": "yanfolila",
   "fields": {
-    "name": "yanfolila",
     "weather_api_id": 2448518
   }
 },
 {
-  "model": "service_development.crop",
-  "pk": 1,
+  "model": "service_development.cercle",
+  "pk": "yorosso",
   "fields": {
-    "name": "rice",
-    "min_temp": "16",
-    "max_temp": "27",
-    "snow": "0",
-    "snow_depth": "0",
-    "rh": "0"
-  }
-},
-{
-  "model": "service_development.crop",
-  "pk": 2,
-  "fields": {
-    "name": "millet",
-    "min_temp": "14",
-    "snow": "0",
-    "snow_depth": "0"
-  }
-},
-{
-  "model": "service_development.crop",
-  "pk": 3,
-  "fields": {
-    "name": "corn",
-    "clouds_hi": "30",
-    "clouds_low": "10",
-    "description": "Few Clouds",
-    "min_temp": "15",
-    "snow": "0",
-    "snow_depth": "0",
-    "rh": "0"
+    "weather_api_id": 2448442
   }
 }
 ]
