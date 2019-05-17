@@ -37,16 +37,7 @@ def choice_generate_context(choice_element, session):
                     'choice_options_redirect_urls': choice_options_resolve_redirect_urls(choice_options,session),
                     'language': language,
                 'choice_url': choice_element.get_absolute_url(session) + '/post',
-
                 }
-    import json
-    from django.core import serializers
-    for item in choice_options:
-        for field in item._meta.get_fields():
-            print (field.name)
-    
-
-    print (choice_options[0].name)
     return context
 
 def choice(request, element_id, session_id):
@@ -72,17 +63,23 @@ def post(request, element_id, session_id):
     choice_element = get_object_or_404(Choice, pk=element_id)
     session = get_object_or_404(CallSession, pk = session_id)
     voice_service = session.service
-    session.record_choice(choice = request.POST['choice_id'], element = choice_element, description="User choice")
+    session.record_choice(choice = request.POST['choice_id'], element = choice_element, description=request.POST['description'])
 
-    # print (choice_element)
-    # print ("Choice %s" % request.POST['choice_id'])
-    # r_url_array = redirect_url.split('/')
-    # if any("message" in s for s in r_url_array):
-    #     print ("Need to calculate prediction")
-    print (request.POST['description'])
-    
-    if choice_element.id == 8:
+    crops = Crop.objects.values_list('name', flat=True)
+    desc = request.POST['description'].lower()
+    if desc in crops:
         from django.utils import timezone
-        choices_list = UserDtmfInput.objects.filter(session_id = session_id, time__gte = timezone.now())
+        choices_list = UserDtmfInput.objects.filter(session_id = 17)
 
+        for item in choices_list:
+            if "crop " in str(item.element).lower():
+                crop = item.description
+            elif "cercle" in str(item.element).lower():
+                cercle = item.description
+
+        from vsdk.service_development.meteopaysan.plant_decision import PlantDecision
+        # return HttpResponeRedirect(PlantDecision(session._language.code, crop, cercle))
+        from .vse_message import message_presentation
+        return message_presentation(request, PlantDecision(session._language.code, crop, cercle), session.id)
+    
     return HttpResponseRedirect(redirect_url)
