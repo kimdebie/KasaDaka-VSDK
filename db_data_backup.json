@@ -3166,20 +3166,13 @@
     "clouds_hi": 30.0,
     "clouds_mid": null,
     "clouds_low": 10.0,
-    "code": null,
-    "description": "Few Clouds",
-    "dewpt": null,
-    "min_temp": 15.0,
+    "min_temp": null,
     "max_temp": null,
-    "temp": null,
+    "temp": 15.0,
     "precip": null,
-    "pres": null,
     "rh": 0.0,
     "snow": 0.0,
-    "snow_depth": 0.0,
-    "wind_cdir_full": null,
-    "wind_gust_spd": null,
-    "wind_spd": null
+    "snow_depth": 0.0
   }
 },
 {
@@ -3190,20 +3183,13 @@
     "clouds_hi": null,
     "clouds_mid": null,
     "clouds_low": null,
-    "code": null,
-    "description": null,
-    "dewpt": null,
-    "min_temp": 14.0,
+    "min_temp": null,
     "max_temp": null,
-    "temp": null,
+    "temp": 14.0,
     "precip": null,
-    "pres": null,
     "rh": null,
     "snow": 0.0,
-    "snow_depth": 0.0,
-    "wind_cdir_full": null,
-    "wind_gust_spd": null,
-    "wind_spd": null
+    "snow_depth": 0.0
   }
 },
 {
@@ -3214,20 +3200,13 @@
     "clouds_hi": null,
     "clouds_mid": null,
     "clouds_low": null,
-    "code": null,
-    "description": null,
-    "dewpt": null,
     "min_temp": 16.0,
     "max_temp": 27.0,
     "temp": null,
     "precip": null,
-    "pres": null,
     "rh": 0.0,
     "snow": 0.0,
-    "snow_depth": 0.0,
-    "wind_cdir_full": null,
-    "wind_gust_spd": null,
-    "wind_spd": null
+    "snow_depth": 0.0
   }
 },
 {
