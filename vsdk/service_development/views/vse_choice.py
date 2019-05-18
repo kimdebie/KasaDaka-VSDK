@@ -69,7 +69,7 @@ def post(request, element_id, session_id):
     desc = request.POST['description'].lower()
     if desc in crops:
         from django.utils import timezone
-        choices_list = UserDtmfInput.objects.filter(session_id = 17)
+        choices_list = UserDtmfInput.objects.filter(session_id = session_id)
 
         for item in choices_list:
             if "crop " in str(item.element).lower():
