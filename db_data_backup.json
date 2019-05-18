@@ -275,7 +275,7 @@
   "model": "service_development.voicelabel",
   "pk": 36,
   "fields": {
-    "name": "Corn prediction",
+    "name": "corn-prediction-yes",
     "description": null
   }
 },
@@ -283,7 +283,7 @@
   "model": "service_development.voicelabel",
   "pk": 37,
   "fields": {
-    "name": "Millet prediction",
+    "name": "millet-prediction-yes",
     "description": null
   }
 },
@@ -291,7 +291,31 @@
   "model": "service_development.voicelabel",
   "pk": 38,
   "fields": {
-    "name": "Rice prediction",
+    "name": "rice-prediction-yes",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 39,
+  "fields": {
+    "name": "rice-prediction-no",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 40,
+  "fields": {
+    "name": "corn-prediction-no",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 41,
+  "fields": {
+    "name": "millet-prediction-no",
     "description": null
   }
 },
@@ -1018,7 +1042,7 @@
   "fields": {
     "parent": 27,
     "language": 2,
-    "audio": "millet.wav"
+    "audio": "millet_en.wav"
   }
 },
 {
@@ -1027,7 +1051,7 @@
   "fields": {
     "parent": 28,
     "language": 2,
-    "audio": "corn_en.wav"
+    "audio": "corn_en_xjApRtj.wav"
   }
 },
 {
@@ -1036,7 +1060,7 @@
   "fields": {
     "parent": 29,
     "language": 2,
-    "audio": "rice_Rq6S92Z.wav"
+    "audio": "rice_en.wav"
   }
 },
 {
@@ -1099,7 +1123,7 @@
   "fields": {
     "parent": 36,
     "language": 2,
-    "audio": "corn-prediction.wav"
+    "audio": "corn_yes_en.wav"
   }
 },
 {
@@ -1108,7 +1132,7 @@
   "fields": {
     "parent": 37,
     "language": 2,
-    "audio": "millets-prediction.wav"
+    "audio": "millet_yes_en.wav"
   }
 },
 {
@@ -1117,7 +1141,7 @@
   "fields": {
     "parent": 38,
     "language": 2,
-    "audio": "rice-prediction.wav"
+    "audio": "rice_yes_en.wav"
   }
 },
 {
@@ -1144,7 +1168,7 @@
   "fields": {
     "parent": 27,
     "language": 3,
-    "audio": "millets-fr.wav"
+    "audio": "millet_fr.wav"
   }
 },
 {
@@ -1153,7 +1177,7 @@
   "fields": {
     "parent": 28,
     "language": 3,
-    "audio": "corn-fr.wav"
+    "audio": "corn_fr.wav"
   }
 },
 {
@@ -1162,7 +1186,7 @@
   "fields": {
     "parent": 29,
     "language": 3,
-    "audio": "rice-fr.wav"
+    "audio": "rice_fr.wav"
   }
 },
 {
@@ -1189,7 +1213,7 @@
   "fields": {
     "parent": 36,
     "language": 3,
-    "audio": "corn-prediction-fr.wav"
+    "audio": "corn_yes_fr.wav"
   }
 },
 {
@@ -1198,7 +1222,7 @@
   "fields": {
     "parent": 37,
     "language": 3,
-    "audio": "millets-prediction-fr.wav"
+    "audio": "millet_yes_fr.wav"
   }
 },
 {
@@ -1207,7 +1231,61 @@
   "fields": {
     "parent": 38,
     "language": 3,
-    "audio": "rice-prediction-fr.wav"
+    "audio": "rice_yes_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 99,
+  "fields": {
+    "parent": 39,
+    "language": 2,
+    "audio": "rice_no_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 100,
+  "fields": {
+    "parent": 39,
+    "language": 3,
+    "audio": "rice_no_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 101,
+  "fields": {
+    "parent": 40,
+    "language": 2,
+    "audio": "corn_no_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 102,
+  "fields": {
+    "parent": 40,
+    "language": 3,
+    "audio": "corn_no_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 103,
+  "fields": {
+    "parent": 41,
+    "language": 2,
+    "audio": "millet_no_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 104,
+  "fields": {
+    "parent": 41,
+    "language": 3,
+    "audio": "millet_no_fr.wav"
   }
 },
 {
