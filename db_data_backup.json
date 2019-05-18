@@ -320,6 +320,102 @@
   }
 },
 {
+  "model": "service_development.voicelabel",
+  "pk": 42,
+  "fields": {
+    "name": "Bougouni",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 43,
+  "fields": {
+    "name": "Kadiolo",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 44,
+  "fields": {
+    "name": "Kolondieba",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 45,
+  "fields": {
+    "name": "Koutiala",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 46,
+  "fields": {
+    "name": "Yanfolila",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 47,
+  "fields": {
+    "name": "Yorosso",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 48,
+  "fields": {
+    "name": "Selected - Bougouni",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 49,
+  "fields": {
+    "name": "Selected - Kadiolo",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 50,
+  "fields": {
+    "name": "Selected - Kolondieba",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 51,
+  "fields": {
+    "name": "Selected - Koutiala",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 52,
+  "fields": {
+    "name": "Selected - Yanfolila",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 53,
+  "fields": {
+    "name": "Selected - Yorosso",
+    "description": null
+  }
+},
+{
   "model": "service_development.language",
   "pk": 1,
   "fields": {
@@ -1289,6 +1385,222 @@
   }
 },
 {
+  "model": "service_development.voicefragment",
+  "pk": 105,
+  "fields": {
+    "parent": 42,
+    "language": 2,
+    "audio": "bougouni_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 106,
+  "fields": {
+    "parent": 42,
+    "language": 3,
+    "audio": "bougouni_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 107,
+  "fields": {
+    "parent": 43,
+    "language": 2,
+    "audio": "kadiolo_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 108,
+  "fields": {
+    "parent": 43,
+    "language": 3,
+    "audio": "kadiolo_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 109,
+  "fields": {
+    "parent": 44,
+    "language": 2,
+    "audio": "kolondieba_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 110,
+  "fields": {
+    "parent": 44,
+    "language": 3,
+    "audio": "kolondieba_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 111,
+  "fields": {
+    "parent": 45,
+    "language": 2,
+    "audio": "koutiala_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 112,
+  "fields": {
+    "parent": 45,
+    "language": 3,
+    "audio": "koutiala_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 113,
+  "fields": {
+    "parent": 46,
+    "language": 2,
+    "audio": "yanfolila_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 114,
+  "fields": {
+    "parent": 46,
+    "language": 3,
+    "audio": "yanfolila_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 115,
+  "fields": {
+    "parent": 47,
+    "language": 2,
+    "audio": "yorosso_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 116,
+  "fields": {
+    "parent": 47,
+    "language": 3,
+    "audio": "yorosso_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 117,
+  "fields": {
+    "parent": 48,
+    "language": 2,
+    "audio": "bougouni_select_crop_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 118,
+  "fields": {
+    "parent": 48,
+    "language": 3,
+    "audio": "bougouni_select_crop_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 119,
+  "fields": {
+    "parent": 49,
+    "language": 2,
+    "audio": "kadiolo_select_crop_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 120,
+  "fields": {
+    "parent": 49,
+    "language": 3,
+    "audio": "kadiolo_select_crop_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 121,
+  "fields": {
+    "parent": 50,
+    "language": 2,
+    "audio": "kolondieba_select_crop_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 122,
+  "fields": {
+    "parent": 50,
+    "language": 3,
+    "audio": "kolondieba_select_crop_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 123,
+  "fields": {
+    "parent": 51,
+    "language": 2,
+    "audio": "koutiala_select_crop_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 124,
+  "fields": {
+    "parent": 51,
+    "language": 3,
+    "audio": "koutiala_select_crop_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 125,
+  "fields": {
+    "parent": 52,
+    "language": 2,
+    "audio": "yanfolida_select_crop_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 126,
+  "fields": {
+    "parent": 52,
+    "language": 3,
+    "audio": "yanfolila_select_crop_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 127,
+  "fields": {
+    "parent": 53,
+    "language": 2,
+    "audio": "yorosso_select_crop_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 128,
+  "fields": {
+    "parent": 53,
+    "language": 3,
+    "audio": "yorosso_select_crop_fr.wav"
+  }
+},
+{
   "model": "service_development.voiceservicesubelement",
   "pk": 2,
   "fields": {
@@ -1426,7 +1738,7 @@
   "fields": {
     "service": 2,
     "creation_date": "2019-04-23T14:21:33.096Z",
-    "modification_date": "2019-04-23T14:45:52.093Z",
+    "modification_date": "2019-05-18T20:34:41.741Z",
     "name": "Choose cercle",
     "description": "Choosing a cercle (currently only Sikasso works)",
     "voice_label": 31
@@ -1481,6 +1793,366 @@
   }
 },
 {
+  "model": "service_development.voiceservicesubelement",
+  "pk": 18,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:16:43.684Z",
+    "modification_date": "2019-05-18T20:24:55.157Z",
+    "name": "Choose crop - Bougouni",
+    "description": "Choosing a crop for Bougouni",
+    "voice_label": 48
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 19,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:16:43.688Z",
+    "modification_date": "2019-05-18T20:16:43.688Z",
+    "name": "Millet",
+    "description": "Millet crop",
+    "voice_label": 27
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 20,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:16:43.691Z",
+    "modification_date": "2019-05-18T20:16:43.691Z",
+    "name": "Rice",
+    "description": "Rice crop",
+    "voice_label": 29
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 21,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:16:43.692Z",
+    "modification_date": "2019-05-18T20:16:43.692Z",
+    "name": "Corn",
+    "description": "Corn crop",
+    "voice_label": 28
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 22,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:26:24.480Z",
+    "modification_date": "2019-05-18T20:26:24.480Z",
+    "name": "Choose crop - Kadiolo",
+    "description": "Choosing a crop for Kadiolo",
+    "voice_label": 49
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 23,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:26:24.486Z",
+    "modification_date": "2019-05-18T20:26:24.486Z",
+    "name": "Millet",
+    "description": "Millet crop",
+    "voice_label": 27
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 24,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:26:24.487Z",
+    "modification_date": "2019-05-18T20:26:24.487Z",
+    "name": "Rice",
+    "description": "Rice crop",
+    "voice_label": 29
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 25,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:26:24.488Z",
+    "modification_date": "2019-05-18T20:26:24.488Z",
+    "name": "Corn",
+    "description": "Corn crop",
+    "voice_label": 28
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 26,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:27:53.432Z",
+    "modification_date": "2019-05-18T20:27:53.432Z",
+    "name": "Choose crop - Kolondieba",
+    "description": "Choosing a crop for Kolondieba",
+    "voice_label": 50
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 27,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:27:53.435Z",
+    "modification_date": "2019-05-18T20:27:53.435Z",
+    "name": "Millet",
+    "description": "Millet crop",
+    "voice_label": 27
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 28,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:27:53.435Z",
+    "modification_date": "2019-05-18T20:27:53.436Z",
+    "name": "Rice",
+    "description": "Rice crop",
+    "voice_label": 29
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 29,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:27:53.436Z",
+    "modification_date": "2019-05-18T20:27:53.436Z",
+    "name": "Corn",
+    "description": "Corn crop",
+    "voice_label": 28
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 30,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:29:35.980Z",
+    "modification_date": "2019-05-18T20:29:35.980Z",
+    "name": "Choose crop - Koutiala",
+    "description": "Choosing a crop for Koutiala",
+    "voice_label": 51
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 31,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:29:35.983Z",
+    "modification_date": "2019-05-18T20:29:35.983Z",
+    "name": "Millet",
+    "description": "Millet crop",
+    "voice_label": 27
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 32,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:29:35.985Z",
+    "modification_date": "2019-05-18T20:29:35.985Z",
+    "name": "Rice",
+    "description": "Rice crop",
+    "voice_label": 29
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 33,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:29:35.986Z",
+    "modification_date": "2019-05-18T20:29:35.986Z",
+    "name": "Corn",
+    "description": "Corn crop",
+    "voice_label": 28
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 34,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:30:56.841Z",
+    "modification_date": "2019-05-18T20:30:56.841Z",
+    "name": "Choose crop - Yanfolila",
+    "description": "Choosing a crop for Yanfolila",
+    "voice_label": 52
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 35,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:30:56.846Z",
+    "modification_date": "2019-05-18T20:30:56.846Z",
+    "name": "Millet",
+    "description": "Millet crop",
+    "voice_label": 27
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 36,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:30:56.848Z",
+    "modification_date": "2019-05-18T20:30:56.848Z",
+    "name": "Rice",
+    "description": "Rice crop",
+    "voice_label": 29
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 37,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:30:56.849Z",
+    "modification_date": "2019-05-18T20:30:56.849Z",
+    "name": "Corn",
+    "description": "Corn crop",
+    "voice_label": 28
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 38,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:32:00.849Z",
+    "modification_date": "2019-05-18T20:32:00.849Z",
+    "name": "Choose crop - Yorosso",
+    "description": "Choosing a crop for Yorosso",
+    "voice_label": 53
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 39,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:32:00.854Z",
+    "modification_date": "2019-05-18T20:32:00.854Z",
+    "name": "Millet",
+    "description": "Millet crop",
+    "voice_label": 27
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 40,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:32:00.855Z",
+    "modification_date": "2019-05-18T20:32:00.855Z",
+    "name": "Rice",
+    "description": "Rice crop",
+    "voice_label": 29
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 41,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:32:00.856Z",
+    "modification_date": "2019-05-18T20:32:00.856Z",
+    "name": "Corn",
+    "description": "Corn crop",
+    "voice_label": 28
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 42,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:34:41.746Z",
+    "modification_date": "2019-05-18T20:34:41.746Z",
+    "name": "Bougouni",
+    "description": "Choosing Bougouni region",
+    "voice_label": 42
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 43,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:34:41.747Z",
+    "modification_date": "2019-05-18T20:34:41.747Z",
+    "name": "Kadiolo",
+    "description": "Choosing Kadiolo region",
+    "voice_label": 43
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 44,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:34:41.748Z",
+    "modification_date": "2019-05-18T20:34:41.748Z",
+    "name": "Kolondieba",
+    "description": "Choosing Kolondieba region",
+    "voice_label": 44
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 45,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:34:41.748Z",
+    "modification_date": "2019-05-18T20:34:41.748Z",
+    "name": "Koutiala",
+    "description": "Choosing Koutiala region",
+    "voice_label": 45
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 46,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:34:41.749Z",
+    "modification_date": "2019-05-18T20:34:41.749Z",
+    "name": "Yanfolila",
+    "description": "Choosing Yanfolila region",
+    "voice_label": 46
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 47,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-18T20:34:41.750Z",
+    "modification_date": "2019-05-18T20:34:41.750Z",
+    "name": "Yorosso",
+    "description": "Choosing Yorosso region",
+    "voice_label": 47
+  }
+},
+{
   "model": "service_development.voiceserviceelement",
   "pk": 2,
   "fields": {}
@@ -1528,6 +2200,36 @@
 {
   "model": "service_development.voiceserviceelement",
   "pk": 17,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 18,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 22,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 26,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 30,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 34,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 38,
   "fields": {}
 },
 {
@@ -1779,7 +2481,7 @@
   "pk": 17,
   "fields": {
     "start": "2019-04-27T11:19:35.404Z",
-    "end": "2019-05-13T15:18:19.791Z",
+    "end": "2019-05-18T20:48:06.946Z",
     "user": null,
     "caller_id": null,
     "service": 2,
@@ -3129,6 +3831,26 @@
   }
 },
 {
+  "model": "service_development.callsessionstep",
+  "pk": 134,
+  "fields": {
+    "time": "2019-05-18T20:47:22.978Z",
+    "session": 17,
+    "_visited_element": 13,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 135,
+  "fields": {
+    "time": "2019-05-18T20:48:06.954Z",
+    "session": 17,
+    "_visited_element": 34,
+    "description": null
+  }
+},
+{
   "model": "service_development.choice",
   "pk": 2,
   "fields": {}
@@ -3141,6 +3863,36 @@
 {
   "model": "service_development.choice",
   "pk": 13,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 18,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 22,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 26,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 30,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 34,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 38,
   "fields": {}
 },
 {
@@ -3189,6 +3941,198 @@
   "fields": {
     "parent": 13,
     "_redirect": 8
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 19,
+  "fields": {
+    "parent": 18,
+    "_redirect": 17
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 20,
+  "fields": {
+    "parent": 18,
+    "_redirect": 16
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 21,
+  "fields": {
+    "parent": 18,
+    "_redirect": 15
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 23,
+  "fields": {
+    "parent": 22,
+    "_redirect": 17
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 24,
+  "fields": {
+    "parent": 22,
+    "_redirect": 16
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 25,
+  "fields": {
+    "parent": 22,
+    "_redirect": 15
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 27,
+  "fields": {
+    "parent": 26,
+    "_redirect": 17
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 28,
+  "fields": {
+    "parent": 26,
+    "_redirect": 16
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 29,
+  "fields": {
+    "parent": 26,
+    "_redirect": 17
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 31,
+  "fields": {
+    "parent": 30,
+    "_redirect": 17
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 32,
+  "fields": {
+    "parent": 30,
+    "_redirect": 16
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 33,
+  "fields": {
+    "parent": 30,
+    "_redirect": 15
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 35,
+  "fields": {
+    "parent": 34,
+    "_redirect": 17
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 36,
+  "fields": {
+    "parent": 34,
+    "_redirect": 16
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 37,
+  "fields": {
+    "parent": 34,
+    "_redirect": 15
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 39,
+  "fields": {
+    "parent": 38,
+    "_redirect": 17
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 40,
+  "fields": {
+    "parent": 38,
+    "_redirect": 16
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 41,
+  "fields": {
+    "parent": 38,
+    "_redirect": 15
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 42,
+  "fields": {
+    "parent": 13,
+    "_redirect": 18
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 43,
+  "fields": {
+    "parent": 13,
+    "_redirect": 22
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 44,
+  "fields": {
+    "parent": 13,
+    "_redirect": 26
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 45,
+  "fields": {
+    "parent": 13,
+    "_redirect": 30
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 46,
+  "fields": {
+    "parent": 13,
+    "_redirect": 34
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 47,
+  "fields": {
+    "parent": 13,
+    "_redirect": 38
   }
 },
 {
