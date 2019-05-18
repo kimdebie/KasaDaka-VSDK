@@ -80,6 +80,6 @@ def post(request, element_id, session_id):
         from vsdk.service_development.meteopaysan.plant_decision import PlantDecision
         # return HttpResponeRedirect(PlantDecision(session._language.code, crop, cercle))
         from .vse_message import message_presentation
-        return message_presentation(request, PlantDecision(session._language.code, crop, cercle), session.id)
+        return message_presentation(request, PlantDecision(session._language.code, cercle, crop), session.id)
     
     return HttpResponseRedirect(redirect_url)
