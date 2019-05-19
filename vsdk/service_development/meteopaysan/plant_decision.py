@@ -31,7 +31,7 @@ def PlantDecision(language_code, cercle_name, crop_name):
         plus_5 = (crop_conditions.rh * error_rate) + crop_conditions.rh
         minus_5 = crop_conditions.rh - (crop_conditions.rh * error_rate)
 
-        if (avg_weather.rh > plus_5 or avg_weather.rh < minus_5):
+        if avg_weather.rh > plus_5 or avg_weather.rh < minus_5:
             print("[PlantDecision] Violated rh - AVG: ", avg_weather.rh, " CROP: ", crop_conditions.rh, " 5% +/-: ", plus_5, ",", minus_5)
             conditions_violated = True
 
@@ -42,7 +42,7 @@ def PlantDecision(language_code, cercle_name, crop_name):
         plus_5 = (crop_conditions.precip * error_rate) + crop_conditions.precip
         minus_5 = crop_conditions.precip - (crop_conditions.precip * error_rate)
 
-        if (avg_weather.precip > plus_5 or avg_weather.precip < minus_5):
+        if avg_weather.precip > plus_5 or avg_weather.precip < minus_5:
             print("[PlantDecision] Violated precip - AVG: ", avg_weather.precip, " CROP: ", crop_conditions.precip, " 5% +/-: ", plus_5, ",", minus_5)
             conditions_violated = True
 
@@ -53,26 +53,24 @@ def PlantDecision(language_code, cercle_name, crop_name):
         plus_5 = (crop_conditions.temp * error_rate) + crop_conditions.temp
         minus_5 = crop_conditions.temp - (crop_conditions.temp * error_rate)
 
-        if (avg_weather.temp > plus_5 or avg_weather.temp < minus_5):
+        if avg_weather.temp > plus_5 or avg_weather.temp < minus_5:
             print("[PlantDecision] Violated temp - AVG: ", avg_weather.temp, " CROP: ", crop_conditions.temp, " 5% +/-: ", plus_5, ",", minus_5)
             conditions_violated = True
 
 
     if crop_conditions.max_temp >= 0 and conditions_violated is False:
         plus_5 = (crop_conditions.max_temp * error_rate) + crop_conditions.max_temp
-        minus_5 = crop_conditions.max_temp - (crop_conditions.max_temp * error_rate)
 
-        if (avg_weather.max_temp < plus_5 or avg_weather.max_temp < minus_5):
-            print("[PlantDecision] Violated max_temp - AVG: ", avg_weather.max_temp, " CROP: ", crop_conditions.max_temp, " 5% +/-: ", plus_5, ",", minus_5)
+        if avg_weather.max_temp > plus_5:
+            print("[PlantDecision] Violated max_temp - AVG: ", avg_weather.max_temp, " CROP: ", crop_conditions.max_temp, " 5% +: ", plus_5)
             conditions_violated = True 
     
 
     if crop_conditions.min_temp >= 0 and conditions_violated is False:
         plus_5 = (crop_conditions.min_temp * error_rate) + crop_conditions.min_temp
-        minus_5 = crop_conditions.min_temp - (crop_conditions.min_temp * error_rate)
 
-        if (avg_weather.min_temp > plus_5 or avg_weather.min_temp < minus_5):
-            print("[PlantDecision] Violated min_temp - AVG: ", avg_weather.min_temp, " CROP: ", crop_conditions.min_temp, " 5% +/-: ", plus_5, ",", minus_5)
+        if avg_weather.min_temp < plus_5:
+            print("[PlantDecision] Violated min_temp - AVG: ", avg_weather.min_temp, " CROP: ", crop_conditions.min_temp, " 5% +: ", plus_5)
             conditions_violated = True 
     
     
@@ -83,17 +81,16 @@ def PlantDecision(language_code, cercle_name, crop_name):
         plus_5 = (crop_conditions.clouds * error_rate) + crop_conditions.clouds
         minus_5 = crop_conditions.clouds - (crop_conditions.clouds * error_rate)
 
-        if (avg_weather.clouds > plus_5 or avg_weather.clouds < minus_5):
+        if avg_weather.clouds > plus_5 or avg_weather.clouds < minus_5:
             print("[PlantDecision] Violated clouds - AVG: ", avg_weather.clouds, " CROP: ", crop_conditions.clouds, " 5% +/-: ", plus_5, ",", minus_5)
             conditions_violated = True 
 
 
     if crop_conditions.clouds_low >= 0 and conditions_violated is False:
-        plus_5 = (crop_conditions.clouds_low * error_rate) + crop_conditions.clouds_low
-        minus_5 = crop_conditions.clouds_low - (crop_conditions.clouds_low * error_rate)
+        plus_5 = (crop_conditions.clouds_mid * error_rate) + crop_conditions.clouds_mid
 
-        if (avg_weather.clouds_low > plus_5 or avg_weather.clouds_low < minus_5):
-            print("[PlantDecision] Violated clouds_low - AVG: ", avg_weather.clouds_low, " CROP: ", crop_conditions.clouds_low, " 5% +/-: ", plus_5, ",", minus_5)
+        if avg_weather.clouds_low < plus_5:
+            print("[PlantDecision] Violated clouds_low - AVG: ", avg_weather.clouds_low, " CROP: ", crop_conditions.clouds_low, " 5% +: ", plus_5)
             conditions_violated = True 
 
 
@@ -101,17 +98,16 @@ def PlantDecision(language_code, cercle_name, crop_name):
         plus_5 = (crop_conditions.clouds_mid * error_rate) + crop_conditions.clouds_mid
         minus_5 = crop_conditions.clouds_mid - (crop_conditions.clouds_mid * error_rate)
 
-        if (avg_weather.clouds_mid > plus_5 or avg_weather.clouds_mid < minus_5):
+        if avg_weather.clouds_mid > plus_5 or avg_weather.clouds_mid < minus_5:
             print("[PlantDecision] Violated clouds_mid - AVG: ", avg_weather.clouds_mid, " CROP: ", crop_conditions.clouds_mid, " 5% +/-: ", plus_5, ",", minus_5)
             conditions_violated = True 
 
 
     if crop_conditions.clouds_hi >= 0 and conditions_violated is False:
         plus_5 = (crop_conditions.clouds_hi * error_rate) + crop_conditions.clouds_hi
-        minus_5 = crop_conditions.clouds_hi - (crop_conditions.clouds_hi * error_rate)
 
-        if (avg_weather.clouds_hi > plus_5 or avg_weather.clouds_hi < minus_5):
-            print("[PlantDecision] Violated clouds_hi - AVG: ", avg_weather.clouds_hi, " CROP: ", crop_conditions.clouds_hi, " 5% +/-: ", plus_5, ",", minus_5)
+        if avg_weather.clouds_hi > plus_5:
+            print("[PlantDecision] Violated clouds_hi - AVG: ", avg_weather.clouds_hi, " CROP: ", crop_conditions.clouds_hi, " 5% +: ", plus_5)
             conditions_violated = True 
 
 
