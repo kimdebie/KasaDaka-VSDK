@@ -4632,11 +4632,11 @@
     "clouds_hi": 30.0,
     "clouds_mid": -1.0,
     "clouds_low": 10.0,
-    "min_temp": 15.0,
+    "min_temp": -1.0,
     "max_temp": -1.0,
-    "temp": -1.0,
+    "temp": 15.0,
     "precip": -1.0,
-    "rh": 0.0,
+    "rh": -1.0,
     "snow": 0.0,
     "snow_depth": 0.0
   }
@@ -4649,9 +4649,9 @@
     "clouds_hi": -1.0,
     "clouds_mid": -1.0,
     "clouds_low": -1.0,
-    "min_temp": 14.0,
+    "min_temp": -1.0,
     "max_temp": -1.0,
-    "temp": -1.0,
+    "temp": 14.0,
     "precip": -1.0,
     "rh": -1.0,
     "snow": 0.0,
@@ -4670,7 +4670,7 @@
     "max_temp": 27.0,
     "temp": -1.0,
     "precip": -1.0,
-    "rh": 0.0,
+    "rh": -1.0,
     "snow": 0.0,
     "snow_depth": 0.0
   }
