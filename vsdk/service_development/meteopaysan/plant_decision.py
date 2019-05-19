@@ -106,9 +106,9 @@ def PlantDecision(language_code, cercle_name, crop_name):
 
 
     if conditions_violated is True:
-        wav_name = crop_name + "-prediction-no"
+        wav_name = crop_name.lower() + "-prediction-no"
     else:
-        wav_name = crop_name + "-prediction-yes"
+        wav_name = crop_name.lower() + "-prediction-yes"
     print (wav_name)
     wav = VoiceServiceSubElement.objects.get(name = wav_name)
     print("[PlantDecision] Voice: ", wav.id)
