@@ -1,4 +1,4 @@
-from vsdk.service_development.models.weather import Cercle
+from vsdk.service_development.models.cercle import Cercle
 from vsdk.service_development.models.weather import Weather
 
 from django.conf import settings
@@ -8,7 +8,7 @@ import urllib.request
 
 # Returns the weather data for a specific cercle
 def GetWeatherData(cercle):
-    webURL = urllib.request.urlopen(settings.API + cercle + settings.API_KEY)
+    webURL = urllib.request.urlopen(settings.API + str(cercle) + settings.API_KEY)
     encoding = webURL.info().get_content_charset('utf-8')
     serialized_data = webURL.read()
     weather_data = json.loads(serialized_data.decode(encoding))
@@ -16,7 +16,7 @@ def GetWeatherData(cercle):
 
 
 def ProcessWeatherData():
-    cercles = Weather.objects.all()
+    cercles = Cercle.objects.all()
     metrics = settings.WEATHER_API_KEEP
 
     # For each cercle get the data 

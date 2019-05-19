@@ -110,6 +110,7 @@ def PlantDecision(language_code, cercle_name, crop_name):
     else:
         wav_name = crop_name + "-prediction-yes"
     wav = VoiceServiceSubElement.objects.get(name = wav_name)
+    print("[PlantDecision] Voice: ", wav.id)
     return wav.id
 
 
