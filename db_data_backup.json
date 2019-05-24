@@ -108,7 +108,7 @@
   "pk": 14,
   "fields": {
     "name": "Four",
-    "description": ""
+    "description": null
   }
 },
 {
@@ -733,7 +733,7 @@
   "fields": {
     "parent": 14,
     "language": 2,
-    "audio": "4_fr.wav"
+    "audio": "4_en_RCzkOqM.wav"
   }
 },
 {
@@ -742,7 +742,7 @@
   "fields": {
     "parent": 14,
     "language": 3,
-    "audio": "4_en.wav"
+    "audio": "4_fr_TTgwFSa.wav"
   }
 },
 {
@@ -4636,7 +4636,7 @@
     "max_temp": -1.0,
     "temp": -1.0,
     "precip": -1.0,
-    "rh": -1.0,
+    "rh": 0.0,
     "snow": 0.0,
     "snow_depth": 0.0
   }
@@ -4670,7 +4670,7 @@
     "max_temp": 27.0,
     "temp": -1.0,
     "precip": -1.0,
-    "rh": -1.0,
+    "rh": 0.0,
     "snow": 0.0,
     "snow_depth": 0.0
   }
